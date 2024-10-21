@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bahiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: blanchedalmond;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.container{
+    padding: 130px 100px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    gap: 23rem;
+}
+
+.btn button{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Bahiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
